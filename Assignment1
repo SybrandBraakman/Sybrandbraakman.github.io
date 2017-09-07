@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<H1> John
+</h1>
+<h2>John
+</h2>
+<h3>John
+</h3>
+</head>
+	<body>
+    <p style="color:red">Gr8 b8, m8. I rel8, str8 <strong>appreci8</strong>, and <i>congratul8</i>. I r8 this b8 an 8/8. Plz no h8, I’m str8 ir8. Cre8 more, can’t w8. We should convers8, I won’t ber8, my number is 8888888, ask for N8. No calls l8 or out of st8. If on a d8, ask K8 to loc8. Even with a full pl8, I always have time to communic8 so don’t hesit8
+    </style>
+    </p>
+  <p style="background:blue"> Gr8 b8, m8. I rel8, str8 appreci8, and congratul8. I r8 this b8 an 8/8. Plz no h8, I’m str8 ir8. Cre8 more, can’t w8. We should convers8, I won’t ber8, my number is 8888888, ask for N8. No calls l8 or out of st8. If on a d8, ask K8 to loc8. Even with a full pl8, I always have time to communic8 so don’t hesit8 </style>
+    </p>
+  <p><center>Gr8 b8, m8. I rel8, str8 appreci8, and congratul8. I r8 this b8 an 8/8. Plz no h8, I’m str8 ir8. Cre8 more, can’t w8. We should convers8, I won’t ber8, my number is 8888888, ask for N8. No calls l8 or out of st8. If on a d8, ask K8 to loc8. Even with a full pl8, I always have time to communic8 so don’t hesit8
+  </center>
+    </p>
+    <p><a href="www.apple.com">Apple</a></p>
+  </body>
+ <img src="1160252.jpg" alt="Yung Lean" style="width:200px;height:150px;">
+  <table style="width:100%">
+  	<th style="text-align:center;">Name</th>
+    <th>Gender</th><th>Age</th>
+<tr>
+        <td>Karl</td>
+        <td>Male</td>
+        <td>52</td>
+</tr>
+		<td>Natalie</td>
+        <td>Female</td>
+        <td>34</td>
+</tr>
+        <td>Maria</td>
+        <td>Female</td>
+        <td>28</td>
+</tr>
+<ol type="a">
+  <li>alpha</li>
+  <li>bravo</li>
+  <li>charlie</li>
+</ol>
+  </table>
+</body>
+</html>
