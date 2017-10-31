@@ -1,0 +1,19 @@
+            body {
+                
+                font-family:"Courier New";
+            }
+        
+            #shape {
+                
+                width: 200px;
+                height: 200px;
+                position: relative;
+                display: none;
+                        background-color: red;
+                
+            }
+            
+            .bold  {
+                
+                font-weight: bold;
+            }
