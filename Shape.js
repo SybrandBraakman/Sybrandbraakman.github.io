@@ -1,70 +1,69 @@
-   var startTime;
-            var endTime;
-            var timeFinal;
-
-
-
+        var start = new Date().getTime();
+            
             function getRandomColor() {
-
-                var letters = "0123456789ABCDEF".split('');
+                
+                var letters = "0123456789ABCDEF".split("");
                 var color = "#";
                 for (var i = 0; i < 6; i++) {
-                  color += letters[Math.round(Math.random() * 15)];
-                }
+                
+                    color += letters[Math.floor(Math.random() * 16)];
+            }
+                
                 return color;
             }
-
-
-
-
+            
+            
+            
             function makeShapeAppear() {
+                
+                var top = Math.random() * 400;
+                
+                var left = Math.random() * 400;
+                
+                var size = Math.random() * 200 + 100;
+                
+                var color = getRandomColor();
+                
                 if (Math.random() > 0.5) {
                     
-                    document.getElementById("shape").style.borderRadius = "100px";
-                    
+                    document.getElementById("shape").style.borderRadius = "50%";
                     
                 } else {
                     
-                    document.getElementById("shape").style.borderRadius = "0px";
+                    document.getElementById("shape").style.borderRadius = "0%";
                 }
                 
-	      				var top = Math.random();
-				       		top = top*300;
-				      	var left = Math.random();
-						      left = left*500; 
-						 
-		document.getElementById("shape").style.top = top + "px";
-		document.getElementById("shape").style.left = left + "px"; 				      	
-		document.getElementById("shape").style.backgroundColor=getRandomColor();
-                document.getElementById("shape").style.display = "block";
-                startTime=new Date().getTime();
+                document.getElementById("shape").style.backgroundColor = color;
                 
+                document.getElementById("shape").style.top = top + "px";
+                
+                document.getElementById("shape").style.left = left + "px";
+                
+                document.getElementById("shape").style.width = size + "px";
+                
+                document.getElementById("shape").style.height = size + "px";
+                
+                document.getElementById("shape").style.display = "block";
+                
+                start = new Date().getTime();
             }
-          
-
-               
-               
+            
             function appearAfterDelay(){
                 
                 setTimeout(makeShapeAppear, Math.random() * 2000);
-               
             }
             
             appearAfterDelay();
-
+            
             document.getElementById("shape").onclick = function(){
-               
+                
                 document.getElementById("shape").style.display = "none";
                 
-                endTime = new Date().getTime();
+                var end = new Date().getTime();
                 
-                timeFinal = endTime - startTime;
+                var timeTaken = (end - start) / 1000;
                 
-                timeFinal=timeFinal/1000
-                
-                document.getElementById("timeTaken").innerHTML = timeFinal + " seconds";
+                document.getElementById("timeTaken").innerHTML = timeTaken + "s";
                 
                 appearAfterDelay();
-            };  
-            
-            
+            }
